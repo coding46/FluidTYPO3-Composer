@@ -1,0 +1,45 @@
+{
+    "name": "fluidtypo3/fluidtypo3-composer",
+    "description": "[development] A collection of composer.json files to start with. Mostly all FluidTYPO3 extensions included.",
+    "license": "GPL-2.0+",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/FluidTYPO3/flll"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/FluidTYPO3/builder"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/FluidTYPO3/view"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/FluidTYPO3/uncache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/FluidTYPO3/schemaker"
+        }
+    ],
+
+    "config": {
+        "vendor-dir": "Packages/Libraries",
+        "bin-dir": "bin"
+    },
+    "require": {
+        "typo3/cms": "6.2.*",
+        "fluidtypo3/vhs": "dev-development",
+        "fluidtypo3/flux": "dev-development",
+        "fluidtypo3/fluidpages": "dev-development",
+        "fluidtypo3/fluidcontent": "dev-development",
+        "fluidtypo3/fluidcontent_core": "dev-development",
+        "fluidtypo3/view": "dev-master",
+        "fluidtypo3/builder": "dev-development",
+        "fluidtypo3/flll": "dev-master",
+        "fluidtypo3/uncache": "dev-master",
+        "fluidtypo3/schemaker": "dev-development"
+    }
+}
